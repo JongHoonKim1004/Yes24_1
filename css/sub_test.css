@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+.bigbox{width:940px; height:auto; margin:0 auto;}
+
+/* ///sub 하단/// */
+#lower-sub {width:100%; height:auto; padding: 30px 0;}
+.lower-sub {width:1200px; height:auto; margin:0 auto;}
+
+/* //하단부 왼쪽 영역// */
+.lower-left {width:940px; height:auto;}
+.lower-left > div:not(.lower-item-info) {margin-top:30px;}
+
+/* 품목정보 영역 */
+.lower-item-info {width:940px;}
+.item-info-text {height:50px; line-height: 30px; padding-bottom:15px;}
+.item-info-text > h3 {font-size: 20px; font-weight: bold;}
+.info-table {width:940px; height:164px; border-top:1px solid #d8d8d8; border-bottom:1px solid #d8d8d8; font-size: 12px;}
+.info-table-tr { border-bottom: 1px solid #d8d8d8; }
+.info-table-tr:last-child {border:0;}
+.info-table-tr > th {border-right:1px solid #d8d8d8; padding:12px 0; background-color: #f8f8f8; font-weight: 700;}
+.info-table-tr > td { padding-left:5px; color:#666;}
+
+/* 관련분류 영역 
+.lower-classification {height:auto; border-bottom:1px solid #d8d8d8;}
+.classification-title {height:50px; line-height:30px; padding-top:15px;}
+.classification-title > h3 {font-size: 20px; font-weight: bold;}
+.classification-main > h4 {height:40px; line-height: 20px; font-size: 14px; color:#333;}
+.classification-ul {list-style: circle; margin-bottom:40px;}
+.classification-ul > li {font-size: 12px; margin-left:20px; padding-bottom:10px;}
+.classification-ul > li > a {color:#333; display: block; float:left;}
+.classification-ul > li > a:hover {text-decoration: underline;}
+.right-arrow {font-size: 10px; color:#666; display: block; margin:0 5px; float:left;}
+*/
